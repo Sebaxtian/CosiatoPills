@@ -1,0 +1,29 @@
+/**
+ * 	Esta es la definicion de estilo para algunos elementos
+ *  correspondientes al componente view/Main.js
+ *  
+ *  @author Sebastian Rios - sebaxtianrios@gmail.com
+ *  @date Tue Oct 22 17:19:18 COT 2013
+ *  @version 0.1
+ */
+
+.homediv {
+	text-align: center;
+}
+
+.homediv h3 {
+	color: #666666;
+}
+
+.homediv h6 {
+	color: #999999;
+}
+
+.homediv img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 36px;
+	margin-top: 36px;
+}
+
