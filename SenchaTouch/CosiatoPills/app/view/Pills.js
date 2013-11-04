@@ -21,17 +21,34 @@ Ext.define('CosiatoPills.view.Pills', {
     	
     	title: 'Pills',
     	iconCls: 'Pill',
-    	
-    	styleHtmlContent: true,
-        scrollable: true,
+    	layout: 'vbox',
         
         items: [
         	{
         		docked: 'top',
                 xtype: 'titlebar',
                 title: 'Pills'
+        	},
+        	{
+        		xtype: 'panel',
+        		flex: 1,
+        		layout: 'vbox',
+        		items: [
+        			{
+        				style: "background-color: #3B7E00; color: white;",
+						title: "Green",
+						html: "Green",
+						flex: 1
+        			}
+        		]
+        	},
+        	{
+        		xtype: 'button',
+        		text: 'Agregar',
+        		ui: 'confirm',
+        		margin: 4
         	}
-        ],
+        ]/*,
         
         html: [
         	"<div class='homediv'>" +
@@ -40,6 +57,6 @@ Ext.define('CosiatoPills.view.Pills', {
         		"<h3>Organize your pills anywhere</h3>" +
         		"<h6>CosiatoPills</h6>" +
         	"</div>"
-        ].join("")
+        ].join("")*/
     }
 });
