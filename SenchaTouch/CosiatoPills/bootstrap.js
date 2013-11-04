@@ -20,7 +20,9 @@ Ext.Loader.addClassPathMappings({
   "Ext.draw.engine.SvgContext.Gradient": "touch/src/draw/engine/SvgContext.js"
 });
 Ext.ClassManager.addNameAlternateMappings({
+  "CosiatoPills.view.Contact": [],
   "CosiatoPills.view.Main": [],
+  "CosiatoPills.view.Pills": [],
   "Ext.AbstractComponent": [],
   "Ext.AbstractManager": [],
   "Ext.AbstractPlugin": [],
@@ -745,8 +747,14 @@ Ext.ClassManager.addNameAlternateMappings({
   ]
 });
 Ext.ClassManager.addNameAliasMappings({
+  "CosiatoPills.view.Contact": [
+    "widget.contactpanel"
+  ],
   "CosiatoPills.view.Main": [
     "widget.main"
+  ],
+  "CosiatoPills.view.Pills": [
+    "widget.pillspanel"
   ],
   "Ext.AbstractComponent": [],
   "Ext.AbstractManager": [],

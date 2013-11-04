@@ -20,6 +20,7 @@ var app = {
     // Application Constructor
     initialize: function() {
         this.bindEvents();
+        window.location="CosiatoPills/index.html"
     },
     // Bind Event Listeners
     //

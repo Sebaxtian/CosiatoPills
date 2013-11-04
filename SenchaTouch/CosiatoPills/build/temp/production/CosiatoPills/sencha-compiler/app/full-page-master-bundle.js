@@ -1,2 +1,2 @@
 // @tag full-page
-// @require /Users/sebaxtian/Documents/Workspaces/SenchaTouch/CosiatoPills/app.js
+// @require /Users/sebaxtian/Documents/Workspaces/GitHub/CosiatoPills/SenchaTouch/CosiatoPills/app.js
